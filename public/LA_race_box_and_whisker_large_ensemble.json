@@ -1,0 +1,254 @@
+{
+    "state": "Louisiana",
+    "type": "race",
+    "White_POP": {
+        "1": {
+            "min": 291753,
+            "first_quartile": 334262.5,
+            "median": 368933.0,
+            "third_quartile": 393270.5,
+            "max": 403360,
+            "enacted": 219889
+        },
+        "2": {
+            "min": 403512,
+            "first_quartile": 408610.5,
+            "median": 412522.5,
+            "third_quartile": 415490.5,
+            "max": 418830,
+            "enacted": 415515
+        },
+        "3": {
+            "min": 418839,
+            "first_quartile": 422144.5,
+            "median": 425672.0,
+            "third_quartile": 429824.0,
+            "max": 434827,
+            "enacted": 435757
+        },
+        "4": {
+            "min": 434835,
+            "first_quartile": 444521.25,
+            "median": 454431.0,
+            "third_quartile": 465072.25,
+            "max": 474979,
+            "enacted": 514281
+        },
+        "5": {
+            "min": 474980,
+            "first_quartile": 481916.5,
+            "median": 489146.5,
+            "third_quartile": 494589.0,
+            "max": 499176,
+            "enacted": 514558
+        },
+        "6": {
+            "min": 499213,
+            "first_quartile": 504753.25,
+            "median": 510605.5,
+            "third_quartile": 518661.5,
+            "max": 548543,
+            "enacted": 557652
+        }
+    },
+    "Black_POP": {
+        "1": {
+            "min": 134947,
+            "first_quartile": 169711.0,
+            "median": 180138.0,
+            "third_quartile": 188549.0,
+            "max": 193607,
+            "enacted": 117552
+        },
+        "2": {
+            "min": 193673,
+            "first_quartile": 198118.5,
+            "median": 201729.0,
+            "third_quartile": 207902.5,
+            "max": 212626,
+            "enacted": 193183
+        },
+        "3": {
+            "min": 212779,
+            "first_quartile": 219959.75,
+            "median": 228414.0,
+            "third_quartile": 236479.5,
+            "max": 247153,
+            "enacted": 203076
+        },
+        "4": {
+            "min": 247366,
+            "first_quartile": 257447.25,
+            "median": 266260.0,
+            "third_quartile": 272223.25,
+            "max": 277090,
+            "enacted": 244476
+        },
+        "5": {
+            "min": 277228,
+            "first_quartile": 281765.0,
+            "median": 285684.0,
+            "third_quartile": 289660.75,
+            "max": 293116,
+            "enacted": 249323
+        },
+        "6": {
+            "min": 293176,
+            "first_quartile": 296642.0,
+            "median": 301040.5,
+            "third_quartile": 314610.25,
+            "max": 338417,
+            "enacted": 456413
+        }
+    },
+    "Asian_POP": {
+        "1": {
+            "min": 5307,
+            "first_quartile": 7861.5,
+            "median": 8535.5,
+            "third_quartile": 8756.75,
+            "max": 9086,
+            "enacted": 6883
+        },
+        "2": {
+            "min": 9094,
+            "first_quartile": 9238.25,
+            "median": 9347.0,
+            "third_quartile": 9545.0,
+            "max": 10771,
+            "enacted": 7831
+        },
+        "3": {
+            "min": 10778,
+            "first_quartile": 11598.5,
+            "median": 11996.5,
+            "third_quartile": 12712.25,
+            "max": 13242,
+            "enacted": 13671
+        },
+        "4": {
+            "min": 13251,
+            "first_quartile": 13941.5,
+            "median": 14752.0,
+            "third_quartile": 15403.25,
+            "max": 16452,
+            "enacted": 18238
+        },
+        "5": {
+            "min": 16458,
+            "first_quartile": 17347.0,
+            "median": 17610.0,
+            "third_quartile": 18172.5,
+            "max": 19833,
+            "enacted": 19277
+        },
+        "6": {
+            "min": 19894,
+            "first_quartile": 22003.5,
+            "median": 24125.5,
+            "third_quartile": 25757.5,
+            "max": 30244,
+            "enacted": 20538
+        }
+    },
+    "Native_POP": {
+        "1": {
+            "min": 2258,
+            "first_quartile": 2406.5,
+            "median": 2475.0,
+            "third_quartile": 2640.5,
+            "max": 3054,
+            "enacted": 3050
+        },
+        "2": {
+            "min": 3054,
+            "first_quartile": 3209.0,
+            "median": 3311.0,
+            "third_quartile": 3389.5,
+            "max": 3455,
+            "enacted": 3463
+        },
+        "3": {
+            "min": 3456,
+            "first_quartile": 3548.75,
+            "median": 3669.0,
+            "third_quartile": 3840.25,
+            "max": 4150,
+            "enacted": 4142
+        },
+        "4": {
+            "min": 4165,
+            "first_quartile": 4550.5,
+            "median": 4882.5,
+            "third_quartile": 5309.0,
+            "max": 5723,
+            "enacted": 4466
+        },
+        "5": {
+            "min": 5728,
+            "first_quartile": 6363.75,
+            "median": 6713.5,
+            "third_quartile": 7019.5,
+            "max": 7494,
+            "enacted": 6356
+        },
+        "6": {
+            "min": 7598,
+            "first_quartile": 9574.5,
+            "median": 10718.0,
+            "third_quartile": 11547.75,
+            "max": 12617,
+            "enacted": 10180
+        }
+    },
+    "Pacific_POP": {
+        "1": {
+            "min": 152,
+            "first_quartile": 182.0,
+            "median": 189.5,
+            "third_quartile": 198.0,
+            "max": 207,
+            "enacted": 180
+        },
+        "2": {
+            "min": 207,
+            "first_quartile": 214.0,
+            "median": 221.0,
+            "third_quartile": 224.75,
+            "max": 230,
+            "enacted": 236
+        },
+        "3": {
+            "min": 230,
+            "first_quartile": 241.0,
+            "median": 256.0,
+            "third_quartile": 267.75,
+            "max": 279,
+            "enacted": 257
+        },
+        "4": {
+            "min": 279,
+            "first_quartile": 292.0,
+            "median": 306.0,
+            "third_quartile": 320.0,
+            "max": 331,
+            "enacted": 265
+        },
+        "5": {
+            "min": 331,
+            "first_quartile": 337.0,
+            "median": 344.0,
+            "third_quartile": 360.0,
+            "max": 447,
+            "enacted": 324
+        },
+        "6": {
+            "min": 469,
+            "first_quartile": 572.0,
+            "median": 598.0,
+            "third_quartile": 618.0,
+            "max": 752,
+            "enacted": 649
+        }
+    }
+}

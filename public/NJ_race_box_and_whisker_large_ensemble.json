@@ -1,0 +1,494 @@
+{
+    "state": "New Jersey",
+    "type": "race",
+    "White_POP": {
+        "1": {
+            "min": 144014,
+            "first_quartile": 200261.0,
+            "median": 224842.5,
+            "third_quartile": 244633.25,
+            "max": 259018,
+            "enacted": 170788
+        },
+        "2": {
+            "min": 259089,
+            "first_quartile": 273067.25,
+            "median": 282698.5,
+            "third_quartile": 296466.5,
+            "max": 304849,
+            "enacted": 252987
+        },
+        "3": {
+            "min": 305261,
+            "first_quartile": 315803.5,
+            "median": 324687.0,
+            "third_quartile": 332548.0,
+            "max": 342022,
+            "enacted": 318642
+        },
+        "4": {
+            "min": 342049,
+            "first_quartile": 352177.25,
+            "median": 363566.5,
+            "third_quartile": 374211.0,
+            "max": 387686,
+            "enacted": 354904
+        },
+        "5": {
+            "min": 387790,
+            "first_quartile": 398210.5,
+            "median": 407955.0,
+            "third_quartile": 415916.0,
+            "max": 424613,
+            "enacted": 357184
+        },
+        "6": {
+            "min": 424642,
+            "first_quartile": 433050.5,
+            "median": 441199.5,
+            "third_quartile": 449717.0,
+            "max": 458492,
+            "enacted": 483074
+        },
+        "7": {
+            "min": 458549,
+            "first_quartile": 469691.75,
+            "median": 477505.5,
+            "third_quartile": 485730.0,
+            "max": 493753,
+            "enacted": 511554
+        },
+        "8": {
+            "min": 493762,
+            "first_quartile": 500665.25,
+            "median": 506620.0,
+            "third_quartile": 511951.5,
+            "max": 517557,
+            "enacted": 543582
+        },
+        "9": {
+            "min": 517567,
+            "first_quartile": 522884.25,
+            "median": 529369.5,
+            "third_quartile": 536898.75,
+            "max": 543080,
+            "enacted": 560522
+        },
+        "10": {
+            "min": 543211,
+            "first_quartile": 552237.5,
+            "median": 565528.5,
+            "third_quartile": 577516.5,
+            "max": 586758,
+            "enacted": 570399
+        },
+        "11": {
+            "min": 586835,
+            "first_quartile": 593400.0,
+            "median": 598612.5,
+            "third_quartile": 603909.75,
+            "max": 609671,
+            "enacted": 584444
+        },
+        "12": {
+            "min": 609683,
+            "first_quartile": 614887.0,
+            "median": 622417.5,
+            "third_quartile": 634352.5,
+            "max": 677643,
+            "enacted": 634970
+        }
+    },
+    "Black_POP": {
+        "1": {
+            "min": 19001,
+            "first_quartile": 26985.0,
+            "median": 28556.5,
+            "third_quartile": 29934.25,
+            "max": 34996,
+            "enacted": 35448
+        },
+        "2": {
+            "min": 35197,
+            "first_quartile": 41899.0,
+            "median": 43934.5,
+            "third_quartile": 45531.5,
+            "max": 47281,
+            "enacted": 38239
+        },
+        "3": {
+            "min": 47333,
+            "first_quartile": 49481.25,
+            "median": 51777.5,
+            "third_quartile": 53914.75,
+            "max": 55641,
+            "enacted": 41185
+        },
+        "4": {
+            "min": 55674,
+            "first_quartile": 57956.0,
+            "median": 60818.5,
+            "third_quartile": 63018.75,
+            "max": 65531,
+            "enacted": 52687
+        },
+        "5": {
+            "min": 65553,
+            "first_quartile": 68513.75,
+            "median": 71524.0,
+            "third_quartile": 74783.25,
+            "max": 78689,
+            "enacted": 74644
+        },
+        "6": {
+            "min": 78708,
+            "first_quartile": 82135.75,
+            "median": 85431.0,
+            "third_quartile": 88403.0,
+            "max": 91182,
+            "enacted": 76884
+        },
+        "7": {
+            "min": 91217,
+            "first_quartile": 94133.75,
+            "median": 97288.5,
+            "third_quartile": 99641.0,
+            "max": 101992,
+            "enacted": 77529
+        },
+        "8": {
+            "min": 102004,
+            "first_quartile": 103989.5,
+            "median": 105724.5,
+            "third_quartile": 107864.25,
+            "max": 110000,
+            "enacted": 88226
+        },
+        "9": {
+            "min": 110067,
+            "first_quartile": 112666.5,
+            "median": 115075.5,
+            "third_quartile": 118073.75,
+            "max": 121738,
+            "enacted": 97747
+        },
+        "10": {
+            "min": 121745,
+            "first_quartile": 125207.75,
+            "median": 130000.0,
+            "third_quartile": 137782.75,
+            "max": 143438,
+            "enacted": 128468
+        },
+        "11": {
+            "min": 143515,
+            "first_quartile": 151076.25,
+            "median": 166631.0,
+            "third_quartile": 191470.5,
+            "max": 218380,
+            "enacted": 131950
+        },
+        "12": {
+            "min": 218969,
+            "first_quartile": 245865.75,
+            "median": 278909.0,
+            "third_quartile": 316620.25,
+            "max": 366289,
+            "enacted": 402915
+        }
+    },
+    "Asian_POP": {
+        "1": {
+            "min": 14578,
+            "first_quartile": 22478.0,
+            "median": 25543.5,
+            "third_quartile": 27943.75,
+            "max": 29927,
+            "enacted": 30123
+        },
+        "2": {
+            "min": 29945,
+            "first_quartile": 31347.0,
+            "median": 32108.5,
+            "third_quartile": 32713.25,
+            "max": 34160,
+            "enacted": 34353
+        },
+        "3": {
+            "min": 34163,
+            "first_quartile": 35755.5,
+            "median": 37560.5,
+            "third_quartile": 39691.0,
+            "max": 42035,
+            "enacted": 36177
+        },
+        "4": {
+            "min": 42082,
+            "first_quartile": 43808.0,
+            "median": 45364.0,
+            "third_quartile": 46927.5,
+            "max": 48434,
+            "enacted": 45950
+        },
+        "5": {
+            "min": 48442,
+            "first_quartile": 49792.75,
+            "median": 51742.5,
+            "third_quartile": 53805.5,
+            "max": 56846,
+            "enacted": 58474
+        },
+        "6": {
+            "min": 56848,
+            "first_quartile": 60218.5,
+            "median": 63021.0,
+            "third_quartile": 66024.5,
+            "max": 68826,
+            "enacted": 83765
+        },
+        "7": {
+            "min": 68894,
+            "first_quartile": 72367.0,
+            "median": 75947.0,
+            "third_quartile": 79003.25,
+            "max": 83111,
+            "enacted": 83823
+        },
+        "8": {
+            "min": 83156,
+            "first_quartile": 87312.25,
+            "median": 91578.0,
+            "third_quartile": 95733.5,
+            "max": 101867,
+            "enacted": 87042
+        },
+        "9": {
+            "min": 101963,
+            "first_quartile": 106590.5,
+            "median": 110681.5,
+            "third_quartile": 114930.25,
+            "max": 119164,
+            "enacted": 92725
+        },
+        "10": {
+            "min": 119177,
+            "first_quartile": 122270.5,
+            "median": 125354.0,
+            "third_quartile": 128961.25,
+            "max": 132015,
+            "enacted": 109774
+        },
+        "11": {
+            "min": 132023,
+            "first_quartile": 135787.75,
+            "median": 137826.0,
+            "third_quartile": 141793.75,
+            "max": 147785,
+            "enacted": 146994
+        },
+        "12": {
+            "min": 147904,
+            "first_quartile": 156591.25,
+            "median": 165404.5,
+            "third_quartile": 178345.75,
+            "max": 219435,
+            "enacted": 157283
+        }
+    },
+    "Native_POP": {
+        "1": {
+            "min": 1727,
+            "first_quartile": 2141.0,
+            "median": 2267.0,
+            "third_quartile": 2335.75,
+            "max": 2424,
+            "enacted": 2177
+        },
+        "2": {
+            "min": 2424,
+            "first_quartile": 2532.25,
+            "median": 2655.5,
+            "third_quartile": 2767.75,
+            "max": 2859,
+            "enacted": 2322
+        },
+        "3": {
+            "min": 2860,
+            "first_quartile": 2913.25,
+            "median": 2974.0,
+            "third_quartile": 3015.75,
+            "max": 3068,
+            "enacted": 2325
+        },
+        "4": {
+            "min": 3069,
+            "first_quartile": 3124.25,
+            "median": 3176.5,
+            "third_quartile": 3234.0,
+            "max": 3290,
+            "enacted": 2495
+        },
+        "5": {
+            "min": 3290,
+            "first_quartile": 3377.25,
+            "median": 3447.5,
+            "third_quartile": 3535.0,
+            "max": 3609,
+            "enacted": 2998
+        },
+        "6": {
+            "min": 3609,
+            "first_quartile": 3671.5,
+            "median": 3747.0,
+            "third_quartile": 3849.0,
+            "max": 3981,
+            "enacted": 3044
+        },
+        "7": {
+            "min": 3982,
+            "first_quartile": 4147.25,
+            "median": 4245.0,
+            "third_quartile": 4316.25,
+            "max": 4407,
+            "enacted": 4390
+        },
+        "8": {
+            "min": 4407,
+            "first_quartile": 4507.0,
+            "median": 4613.5,
+            "third_quartile": 4697.75,
+            "max": 4769,
+            "enacted": 4683
+        },
+        "9": {
+            "min": 4770,
+            "first_quartile": 4810.0,
+            "median": 4871.0,
+            "third_quartile": 4946.75,
+            "max": 5058,
+            "enacted": 4766
+        },
+        "10": {
+            "min": 5058,
+            "first_quartile": 5244.75,
+            "median": 5413.0,
+            "third_quartile": 5566.5,
+            "max": 5773,
+            "enacted": 5137
+        },
+        "11": {
+            "min": 5774,
+            "first_quartile": 5991.0,
+            "median": 6421.0,
+            "third_quartile": 6802.75,
+            "max": 7216,
+            "enacted": 8074
+        },
+        "12": {
+            "min": 7218,
+            "first_quartile": 7684.0,
+            "median": 8257.5,
+            "third_quartile": 8797.0,
+            "max": 11281,
+            "enacted": 9767
+        }
+    },
+    "Pacific_POP": {
+        "1": {
+            "min": 127,
+            "first_quartile": 164.0,
+            "median": 169.0,
+            "third_quartile": 174.0,
+            "max": 178,
+            "enacted": 143
+        },
+        "2": {
+            "min": 178,
+            "first_quartile": 182.0,
+            "median": 187.0,
+            "third_quartile": 191.0,
+            "max": 196,
+            "enacted": 179
+        },
+        "3": {
+            "min": 196,
+            "first_quartile": 201.0,
+            "median": 205.0,
+            "third_quartile": 210.0,
+            "max": 215,
+            "enacted": 189
+        },
+        "4": {
+            "min": 215,
+            "first_quartile": 222.0,
+            "median": 227.5,
+            "third_quartile": 233.0,
+            "max": 240,
+            "enacted": 192
+        },
+        "5": {
+            "min": 240,
+            "first_quartile": 248.0,
+            "median": 255.0,
+            "third_quartile": 261.75,
+            "max": 266,
+            "enacted": 282
+        },
+        "6": {
+            "min": 267,
+            "first_quartile": 272.0,
+            "median": 277.0,
+            "third_quartile": 283.0,
+            "max": 288,
+            "enacted": 309
+        },
+        "7": {
+            "min": 288,
+            "first_quartile": 293.0,
+            "median": 298.5,
+            "third_quartile": 304.0,
+            "max": 308,
+            "enacted": 313
+        },
+        "8": {
+            "min": 309,
+            "first_quartile": 313.25,
+            "median": 318.0,
+            "third_quartile": 324.0,
+            "max": 330,
+            "enacted": 356
+        },
+        "9": {
+            "min": 330,
+            "first_quartile": 337.0,
+            "median": 346.0,
+            "third_quartile": 354.0,
+            "max": 362,
+            "enacted": 365
+        },
+        "10": {
+            "min": 363,
+            "first_quartile": 373.0,
+            "median": 389.0,
+            "third_quartile": 409.0,
+            "max": 426,
+            "enacted": 396
+        },
+        "11": {
+            "min": 426,
+            "first_quartile": 435.0,
+            "median": 442.0,
+            "third_quartile": 449.0,
+            "max": 456,
+            "enacted": 439
+        },
+        "12": {
+            "min": 456,
+            "first_quartile": 465.0,
+            "median": 477.5,
+            "third_quartile": 500.75,
+            "max": 641,
+            "enacted": 441
+        }
+    }
+}

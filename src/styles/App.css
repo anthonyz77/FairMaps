@@ -1,0 +1,878 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scroll bars */
+  font-family: "Open Sans";
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+  font-family: "Open Sans";
+}
+
+.siteBody {
+  width: 85%;
+  display: flex;
+}
+
+.siteBody-shrink {
+  width: 32%;
+  transition: width 0.3s ease-in-out;
+}
+.sidebar {
+  width: 15%;
+  background-color: #f0f0f0;
+  margin-top: 0;
+  border-top: 0;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  /* border-right-style: solid;
+  border-right-color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: width 0.3s ease;
+
+  border-radius: 10px;
+}
+
+.sidebar.minimized {
+  width: 3%;
+}
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.tab {
+  position: absolute;
+  top: -100px;
+  left: 68%;
+  right: 0%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: top 0.5s ease;
+  z-index: 1000;
+  height: 7%;
+  border-radius: 5px;
+
+}
+
+.columnizebutton{
+  flex-direction: column;
+  margin-bottom: 1%;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+
+.columnizebutton button.active {
+  background-color: green;
+  color: white;
+}
+
+
+#districtbutton.active, #precinctbutton.active {
+  background-color: blue;
+  color: white;
+}
+
+#votingbutton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px ;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  padding-right: 1.5%;
+  text-align: center;
+}
+
+#marginbutton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px ;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  padding-right: 1.5%;
+  text-align: center;
+}
+
+#povertybutton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px ;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 2%;
+  padding-right: 1.5%;
+  text-align: center;
+}
+
+#raceDropdown{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 3px;
+}
+
+#politicalDropdown{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 3px;
+}
+
+#racebutton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  border-radius: 5px ;
+  background-color: white;
+  font-size: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding-right: 7%;
+  margin-right: 2.2%;
+  text-align: center;
+}
+
+#incomebutton {
+  font-family: "Open Sans";
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding-right: 2%;
+  margin-right: 5px;
+  text-align: center;
+  position: relative; /* Make it relative to position the pseudo-element */
+}
+
+#regionbutton {
+  font-family: "Open Sans";
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding-right: 4%;
+  margin-right: 5px;
+  text-align: center;
+  position: relative; /* Make it relative to position the pseudo-element */
+}
+
+#votingbutton.active, #racebutton.active, #incomebutton.active, #regionbutton.active, #povertybutton.active, #marginbutton.active{
+  background-color: green;
+  color: white;
+}
+
+
+#areaButton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 25px;
+  background: none;
+  border: none;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+/* Legend.css */
+.legend-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.legend-container h4 {
+  margin: 0 0 10px;
+}
+
+.legend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #000;
+  border-radius: 15%;
+}
+
+/* DUAL LEGENDS*/
+.legend-container-2 {
+  position: absolute;
+  bottom: 20px;
+  right: 170px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.legend-container-2 h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.legend-container-3 {
+  position: absolute;
+  bottom: 20px;
+  right: 220px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.legend-container-3 h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.legend-list-2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend-list-2 li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color-2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #000;
+  border-radius: 3px; /* Slightly rounded corners */
+}
+
+/*----------------- */
+
+.slide-in {
+  top: 0px; 
+  padding: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.slide-out {
+  top: -105px;
+}
+
+#precinctbutton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 5px ;
+  margin-right: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#precinctbutton::after {
+  content: '';
+  position: absolute;
+  top: -20;
+  right: 70.7%; /* Move this right margin */
+  height: 30%;
+  width: 2px; /* Same as margin-right */
+  background-color: black; /* Black background for the right margin */
+}
+
+#districtbutton{
+  font-family: "Open Sans";
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 5px ;
+  margin-right: 3px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#precinct-district-buttons button.active{
+  background-color: blue;
+  color: white;
+}
+
+#fakecurrArea{
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.info-panel {
+  width: 65%;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-left: 2px solid #ddd;
+ 
+  display: flex;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.info-panel.minimized{
+  width: 1%;
+  padding: 15px;
+  background-color: #f7f7f7;
+  transition: width 0.3s ease; /* Optional smooth transition */
+  display: flex;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-style: none;
+}
+
+
+.welcomeDiv{
+  font-family: "Open Sans";
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  padding-left: 25%;
+  /* text-align: center; */
+  font-weight: bold;
+}
+
+.panel {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 18px;
+  display: none;
+
+  /* overflow: hidden; */
+  transition: max-height 0.5s ease-out;
+}
+
+.panel.minimized {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  padding-left: 2px;
+  margin-top: 3px;
+  transition: max-height 0.5s ease-out;
+}
+
+.accordion .panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  margin-top: 63px;
+}
+
+.dropdown{
+  position: relative;
+  width: 100%;
+  height: 8%;
+}
+
+.accordion {
+  border-radius: 3px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.accordion.minimized {
+  border-radius: 3px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.accordion .left-icon, .dropdown .right-icon {
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 13px;
+  height: 5px;
+  border-radius: 40px;
+}
+
+.accordion .left-icon{
+  transform: rotate(-45deg);
+  right: 7px;
+  bottom: 6px;
+  margin-right: 2px;
+}
+
+.accordion .left-icon.minimized{
+  transform: rotate(-45deg);
+}
+
+.accordion .right-icon{
+  bottom: 6px;
+  transform: rotate(45deg);
+}
+
+.accordion .right-icon.minimized{
+  transform: rotate(45deg);
+  margin-left: 12px;
+}
+
+/*info panel arrow*/
+.infoPanelArrow{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  height: 40px;
+  width: 23px;
+  border-style: none;
+  height: 100%;
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.infoPanelArrowTop{
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 20px;
+  height: 5px;
+  border-radius: 40px;
+  top: 48.5%;
+  margin-top: 4.5px;
+}
+
+.infoPanelArrowBottom{
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  width: 20px;
+  height: 5px;
+  border-radius: 40px;
+  top: 46.3%;
+}
+
+/*end of info panel arrow*/
+
+.infoDiv{
+  height: 100%;
+  width: 97%;
+}
+
+.infoMinimizeButtonDiv{
+  height: 100%;
+  width: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left-style: solid;
+  border-color: lightgray;
+}
+
+.infoMinimizeButtonDiv.minimized{
+  height: 100%;
+  width: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-style: none; 
+}
+
+.stateNameInfoPanel{
+  margin-top: 15px;
+  font-family: "Open Sans";
+  font-size: 40px;
+}
+
+path.leaflet-interactive:focus {
+  outline: none;
+}
+
+.dropdownButtons {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-left: 10%;
+  font-family: "Open sans";
+  border-radius: 3px;
+
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.louisiana-button:hover {
+  background-color: red; /* Louisiana hover color */
+  color:white;
+}
+
+.newjersey-button:hover {
+  background-color: blue; /* New Jersey hover color */
+  color:white;
+}
+
+#NJdiv {
+  white-space: nowrap;
+}
+
+#LAdiv {
+  padding-right: 17px;
+}
+
+.logoDiv {
+  margin-top: 10px;
+  width: 33%;
+  height: 10%;
+  align-content:center;
+  transition: width 0.3s ease;
+}
+
+.logoDiv.minimized {
+  margin-top: 10px;
+  width: 90%;
+  height: 5.58%;
+  align-content:center;
+}
+
+.ramsLogo {
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.Homebutton {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.6s;
+  text-align: left;
+  border-style: none;
+  border-radius: 3px;
+  font-family: "Open sans";
+  padding-left: 5px;
+  height: 85%;
+  display: flex;
+}
+
+.homeButtonDiv {
+  width: 100%;
+  height: 6%;
+}
+
+.homeButtonDiv.minimized {
+  width: 100%;
+  height: 6%;
+  margin-top: 10px;
+}
+
+.homeButtonIconDiv {
+  width: 12%;
+  height: 100%;
+  align-items: center;
+  margin-right: 1.5px;
+}
+
+.homeButtonIconDiv.minimized{
+  width: 100%;
+  margin-left: 5px;
+}
+
+.homeIcon {
+  width: 85%;
+  height: 60%;
+  margin-top: 5px;
+}
+
+.homeIcon.minimized {
+  width: 85%;
+  height: 70%;
+  margin-top: 5px;
+}
+
+.accordion {
+  width: 100%;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  font-family: "Open sans";
+  margin-top: 5px;
+}
+
+.active, .accordion:hover {
+  background-color: #ffffff;
+  border: 1px solid black;
+  transition: 0.6s;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.dropdownButtons:hover{
+  border: 1px solid black;
+  /* background-color: #ffffff; */
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  transform: scale(1.2);
+}
+
+.dropdownButtons.minimized:hover{
+  background-color: #ffffff;
+  transition: 0.6s;
+  border: 1px solid black;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.Homebutton:hover{
+  background-color: #ffffff;
+  border: 1px solid black;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+#NJdiv:hover{
+  background-color: rgba(0, 0, 255, 0.135);
+  transition: 0.6s;
+}
+
+#LAdiv:hover{
+  background-color: rgba(255, 0, 0, 0.203);
+  transition: 0.6s;
+}
+
+#my-leaflet-map {
+  background: #201E50;
+}
+
+.chart-container {
+  width: 100%;
+  background-color: #f8f9fa; 
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.chart-container canvas {
+  width: 100% !important;  
+  height: 100% !important; 
+  border-radius: 10px; 
+}
+
+/* .chart-container h2 {
+  text-align: center; 
+  color: #343a40; 
+  font-size: 24px; 
+} */
+
+.tab-box{
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.topChartsContainer {
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.PopChart, .VotingChart {
+  width: 48%;
+}
+
+.DoubleContainer{
+  display: flex; /* Enables flexbox */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 50px; /* Adds spacing between divs (optional) */
+}
+
+/*.IncomeChart{
+  width: 46%;
+  margin-top: 20px;
+  // margin-left: 25%; 
+}*/
+
+.RegionChart {
+  width: 46%;
+  margin-top: 20px;
+}
+
+#ensembleTableDiv{
+  display: flex; 
+  justify-content: left;
+  align-items: left; 
+  width: 98%;
+  margin-top: 5px;
+}
+
+#ensembleTable{
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.ensembleTableRow1{
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px; /* Increased width */
+  background-color: #000; /* Opaque black background */
+  color: #fff;
+  text-align: center;
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Increased padding for larger area */
+  position: absolute;
+  z-index: 9999;
+  left: 105%; /* Position to the right of the button */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Center vertically */
+  margin-left: 10px; /* Add space between button and tooltip */
+  opacity: 0; /* Hidden by default */
+  transition: visibility 0s, opacity 0.3s ease; /* Smooth transition */
+  font-size: 14px; /* Larger font size */
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1; /* Show the tooltip */
+}
+
+.congressional-table-container {
+  margin: 10px;
+  padding: 10px;
+  max-width: 80%;
+}
+
+.congressional-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.congressional-table th,
+.congressional-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+
+.congressional-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.congressional-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.congressional-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.congressional-table tbody tr.selected-row-democrat {
+  background-color: blue;
+  color: white;
+}
+
+.congressional-table tbody tr.selected-row-republican {
+  background-color: red;
+  color: white;
+}
+
+.congressional-table tbody tr {
+  cursor: pointer;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-right: 90px;
+}
+
+.clear-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 95%;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #d32f2f;
+}
+
+.allDropDown{
+  border-radius: 6px;
+  margin-left: 5px;
+}

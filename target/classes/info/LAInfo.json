@@ -1,0 +1,48 @@
+{
+    "state": "Louisiana",
+    "summary": {
+      "statePopulation": 4600000,
+      "voterDistribution": {
+        "Democrat": 45,
+        "Republican": 54,
+        "Independent": 1
+      },
+      "racialEthnicDistribution": {
+        "White": 59.0,
+        "BlackOrAfricanAmerican": 32.0,
+        "HispanicOrLatino": 5.3,
+        "Asian": 1.7,
+        "NativeAmerican": 0.6,
+        "Other": 1.4
+      },
+      "regionPopulationDistribution": {
+        "Urban": 35.0,
+        "Suburban": 40.0,
+        "Rural": 25.0
+      },
+      "partyControlRedistricting": "Republican",
+      "averageHouseholdIncomeDistribution": "$57,852",
+      "stateRepresentativesByParty": {
+        "U.S. Senate": {
+          "Democrats": 0,
+          "Republicans": 2
+        },
+        "U.S. House": {
+          "Democrats": 1,
+          "Republicans": 5
+        },
+        "State Senate": {
+          "Democrats": 11,
+          "Republicans": 28
+        },
+        "State House": {
+          "Democrats": 32,
+          "Republicans": 73
+        }
+      },
+      "povertyLevel": {
+        "percentage": 19.6,
+        "belowPovertyLine": 900000
+      }
+    }
+  }

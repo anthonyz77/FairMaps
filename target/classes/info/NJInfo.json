@@ -1,0 +1,48 @@
+{
+    "state": "New Jersey",
+    "summary": {
+        "statePopulation": 9290000,
+        "voterDistribution": {
+            "Democrat": 54,
+            "Republican": 41,
+            "Independent": 5
+        },
+        "racialEthnicDistribution": {
+            "White": 55.0,
+            "BlackOrAfricanAmerican": 14.0,
+            "HispanicOrLatino": 21.3,
+            "Asian": 9.0,
+            "NativeAmerican": 0.3,
+            "Other": 0.4
+        },
+        "regionPopulationDistribution": {
+            "Urban": 42.0,
+            "Suburban": 48.0,
+            "Rural": 10.0
+        },
+        "partyControlRedistricting": "Democratic",
+        "averageHouseholdIncomeDistribution": "$97,126",
+        "stateRepresentativesByParty": {
+            "U.S. Senate": {
+                "Democrats": 2,
+                "Republicans": 0
+            },
+            "U.S. House": {
+                "Democrats": 9,
+                "Republicans": 3
+            },
+            "State Senate": {
+                "Democrats": 24,
+                "Republicans": 16
+            },
+            "State House": {
+                "Democrats": 52,
+                "Republicans": 28
+            }
+        },
+        "povertyLevel": {
+            "percentage": 9.2,
+            "belowPovertyLine": 850000
+        }
+    }
+}
