@@ -15,10 +15,11 @@ Additionally to the existing data, analysis is done on an ensemble of randomly g
 - **Ensemble Analysis Tab**: Users can view box and whisker graphs which show how the currently enacted district plan in the state compares to the 15,000 randomly generated district plan ensemble in terms of the demographic, income level, and geographical region types within each district.
 
 ### 🔧 Tech Stack:
-- **Frontend**: React.js, JavaScript, HTML, CSS, Chart.js, React-plotly.js, Leaflet.js
+- **Frontend**: React.js, JavaScript, HTML, CSS
 - **Backend**: Java Spring Boot
 - **Database**: MongoDB (Mongoose), Redis Cache
 - **Data Preprocessing**: Python Pandas, [MGGG's Maup Library](https://github.com/mggg/maup)
+- **Data Visualization**: Chart.js, React-plotly.js, Leaflet.js
 
 ### 🚀 Running the project:
 To run the project locally, follow these steps:
