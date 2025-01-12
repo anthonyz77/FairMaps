@@ -23,10 +23,10 @@ Additionally to the existing data, analysis is done on an ensemble of randomly g
 To run the project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/anthonyz77/FairMaps.git
+   - git clone https://github.com/anthonyz77/FairMaps.git
    
 3. The required dependencies are in package.json. Install the dependencies:
-   npm install
+   - npm install
 
 4. Start the mongoDB database and start mongosh
    
@@ -42,8 +42,8 @@ To run the project locally, follow these steps:
 6. Start the Java Spring Boot backend server:
    - Make sure to have both Java and Maven installed
 
-   mvn clean package
-   mvn spring-boot:run
+   - mvn clean package
+   - mvn spring-boot:run
   
 8. Start client side webpage:
-   npm start
+   - npm start
