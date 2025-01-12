@@ -18,6 +18,7 @@ Additionally to the existing data, analysis is done on an ensemble of randomly g
 - **Frontend**: React.js, JavaScript, HTML, CSS, Chart.js, React-plotly.js, Leaflet.js
 - **Backend**: Java Spring Boot
 - **Database**: MongoDB (Mongoose), Redis Cache
+- **Data Preprocessing**: Python Pandas, [MGGG's Maup Library](https://github.com/mggg/maup)
 
 ### 🚀 Running the project:
 To run the project locally, follow these steps:
